@@ -1,19 +1,14 @@
-# Sample Token Project
+# JackToken Token Contract
 
-This is simple token contract
+Overview
 
-Try running some of the following tasks:
+The JackToken contract is the core BEP-20 token contract for the JackToken ecosystem. It handles the creation, transfer, and balance management of the $JACK token.
 
-```shell
-npx hardhat node
-```
 
+Next commands are available
 ```shell
 npx hardhat compile
-```
-
-
-```shell
+npx hardhat test
+npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 ```
-
